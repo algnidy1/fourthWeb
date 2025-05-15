@@ -1,0 +1,266 @@
+/* start box */
+.d-flex {
+    display: flex
+}
+.align-c {
+    align-items: center
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.justify-c {
+    justify-content: center
+}
+.justify-sb {
+    justify-content: space-between
+}
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d-grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+.d-block {
+    display: block;
+}
+/* end box */
+/* start colors */
+.bg-white {
+    background-color: white
+}
+.bg-blue {
+    background-color: #229bff
+}
+.bg-eee {
+    background-color: #eee
+}
+.bg--- {
+    background-color: rgb(236, 234, 234)
+}
+.bg-main {
+    background-color: var(--color)
+}
+.bg-orange {
+    background-color: orange
+}
+.c-black {
+    color: black
+}
+.c-white {
+    color: white
+}
+.c-orange {
+    color: orange
+}
+.c-grey {
+    color: grey
+}
+.c-blue {
+   color: #229bff
+}
+.blue {
+   color: #229bff
+}
+.c-main {
+    color: var(--color)
+}
+/* end colors */
+/* start padding + margin  */
+.p-10 {
+    padding: 10px
+}
+.p-15 {
+    padding: 15px
+}
+.p-20 {
+    padding: 20px
+}
+.pt-10 {
+    padding-top: 10px
+}
+.pt-15 {
+    padding-top: 15px
+}
+.pt-20 {
+    padding-top: 20px
+}
+.pl-15 {
+    padding-left: 15px;
+}
+.pb-5 {
+    padding-bottom: 5px
+}
+.pb-10 {
+    padding-bottom: 10px
+}
+.pb-15 {
+    padding-bottom: 15px
+}
+.pb-20 {
+    padding-bottom: 20px
+}
+.m-0 {
+    margin: 0
+}
+.m-5{
+    margin: 5px
+}
+.m-10 {
+    margin: 10px
+}
+.m-15 {
+    margin: 15px
+}
+.m-20 {
+    margin: 20px
+}
+.m-top {
+    margin-top: 0
+}
+.mt-5 {
+    margin-top: 5px
+}
+.mt-10 {
+    margin-top: 10px
+}
+.mt-20 {
+    margin-top: 20px
+}
+.mt-25 {
+    margin-top: 25px
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.m-right {
+    margin-right: 20px;
+}
+.mb-0 {
+    margin-bottom: 0px
+}
+.mb-5 {
+    margin-bottom: 5px
+}
+.mb-10 {
+    margin-bottom: 10px
+}
+.mb-20 {
+    margin-bottom: 20px
+}
+.mb-25 {
+    margin-bottom: 25px
+}
+.m-left {
+    margin-left: 20px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.ml-auto {
+    margin-left: auto;
+}
+
+/* end padding + margin  */
+/* start position */
+.p-relative {
+    position: relative
+}
+.p-absolute {
+    position: absolute
+}
+/* end position */
+/* start font */
+.text-c {
+    text-align: center
+}
+.fs-13 {
+    font-size: 13px
+}
+.fs-14 {
+    font-size: 14px
+}
+.fs-15 {
+    font-size: 15px
+}
+.fs-25 {
+    font-size: 25px
+}
+.fw-bold {
+    font-weight: bold;
+}
+/* end font */
+/* start borders */
+.b-none {
+    border: none;
+}
+.border-2px {
+    border: 2px solid #eee;
+}
+.border-2px-ccc {
+    border: 2px solid #ccc;
+}
+.line-none {
+    outline: none;
+}
+.rad-6 {
+    border-radius: 6px
+}
+.rad-10 {
+    border-radius: 10px
+}
+.rad-circle {
+    border-radius: 50%
+}
+/* end borders */
+/* start @media  */
+@media (max-width:767px) {
+    .hide-mobile {
+        display: none
+    }
+    .text-c-mobile {
+        text-align: center;
+    }
+    .d-block-mobile {
+        display: block;
+    }
+    .mb-0-mobile {
+        margin-bottom: 0px
+    }
+}
+/* end @media  */
+/* start width and height */
+.w-full {
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.w-100 {
+    width: 100px;
+}
+.h-100 {
+    height: 100px;
+}
+.h-full {
+    height: 100%;
+}
+/* end width and height */
+/* start extra elements */
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+/* end extra elements */
